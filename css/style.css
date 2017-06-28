@@ -1,4 +1,14 @@
-body{
+html,body{
   font-family: 'Khula', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: ghostwhite;
+}
 
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
