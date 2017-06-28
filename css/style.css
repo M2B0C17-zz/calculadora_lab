@@ -28,8 +28,8 @@ html,body{
 .content{
   height: 200px;
   padding: 9% 7% 40% 7%;
-  border-top-left-radius: 44px;
-  border-top-right-radius: 44px;
+  border-bottom-left-radius: 44px;
+  border-bottom-right-radius: 44px;
 }
 
 .screen-case{
@@ -84,5 +84,5 @@ button:focus,input:focus{
 }
 
 .gold{
-  background-color: #f0c50f;  
+  background-color: #f0c50f;
 }
