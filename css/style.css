@@ -12,3 +12,8 @@ html,body{
   justify-content: center;
   height: 100%;
 }
+
+.flex-content{
+  vertical-align: middle;
+  width: 280px;
+}
