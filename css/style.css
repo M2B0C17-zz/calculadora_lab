@@ -3,7 +3,12 @@ html,body{
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: ghostwhite;
+  background-image: url(../img/fondo.jpg);
+  width: 100%;
+	height: 110vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .flex{
@@ -34,7 +39,7 @@ html,body{
 
 .screen-case{
   height: 42px;
-  background-color: darkgray;
+  background-color: white; /* borde pantalla */
   padding: 3%;
   border-radius: 5px;
   margin-bottom: 5%;
@@ -47,7 +52,7 @@ html,body{
   font-weight: 800;
   font-size: 30px;
   text-align: right;
-  color: white;
+  color: #463055; /* numeros valores en pantalla */
 }
 
 hr{
@@ -72,17 +77,21 @@ button:focus,input:focus{
 }
 
 .gray-dark{
-  background-color: #3b444b;
+  background-color: #3B3555; /* botones */
+}
+
+.gray-dark:hover{
+  background-color: #3A324B; /* botones:hover */
 }
 
 .gray-medium{
-  background-color: #62676b;
+  background-color: #62676b; /* pantala */
 }
 
 .gray-soft{
-  background-color: #bac7b6;
+  background-color: #706D7B; /* base */
 }
 
 .gold{
-  background-color: #f0c50f;
+  background-color: #463055;
 }
